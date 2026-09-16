@@ -1,0 +1,10 @@
+﻿venv/
+*.env
+**/.env
+.ipynb_checkpoints/
+tempCodeRunnerFile.py
+pyvenv.cfg
+
+__pycache__/
+*.pyc
+*.pkl
