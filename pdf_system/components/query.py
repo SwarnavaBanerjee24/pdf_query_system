@@ -1,8 +1,9 @@
+from config import Config
 import re
 import streamlit as st
 from langchain_openai import ChatOpenAI
-from langchain.prompts import PromptTemplate
-from utils.text_utils import format_answer
+from langchain_core.prompts import PromptTemplate
+from utils.text_analysis import format_answer
 
 def query_pdf_component(vector_store):
     st.subheader("💡 Ask Questions from the Document")

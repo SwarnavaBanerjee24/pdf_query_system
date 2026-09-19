@@ -1,7 +1,8 @@
+from config import Config
 import cassio
-from langchain.vectorstores.cassandra import Cassandra
+from langchain_community.vectorstores import Cassandra
 from langchain_openai import OpenAIEmbeddings
-from langchain.text_splitter import CharacterTextSplitter
+from langchain_text_splitters import CharacterTextSplitter
 
 def init_astra():
     cassio.init(

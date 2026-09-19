@@ -1,10 +1,11 @@
+from config import Config
 import json
 import random
 import re
 import streamlit as st
 from langchain_openai import ChatOpenAI
-from langchain.prompts import PromptTemplate
-from utils.text_utils import questions_too_similar, calculate_similarity, format_answer
+from langchain_core.prompts import PromptTemplate
+from utils.text_analysis import questions_too_similar, calculate_similarity, format_answer
 
 class FlashcardSession:
     def __init__(self):
