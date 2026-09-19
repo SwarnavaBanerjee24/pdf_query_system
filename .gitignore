@@ -1,10 +1,25 @@
-﻿venv/
-*.env
-**/.env
-.ipynb_checkpoints/
-tempCodeRunnerFile.py
+# virtualenvs, under any name
+venv/
+.venv/
+env/
+Scripts/
+Include/
+Lib/
 pyvenv.cfg
 
+# secrets
+.env
+*.env
+**/.env
+
+# python
 __pycache__/
 *.pyc
 *.pkl
+
+# notebooks
+.ipynb_checkpoints/
+
+# runtime artifacts
+uploads/
+temp_uploaded_file.pdf
