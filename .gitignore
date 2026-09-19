@@ -23,3 +23,7 @@ __pycache__/
 # runtime artifacts
 uploads/
 temp_uploaded_file.pdf
+
+# more virtualenv leftovers
+etc/
+share/
