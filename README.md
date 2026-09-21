@@ -8,7 +8,6 @@ from them. It also writes summaries and generates flashcards with a scored quiz.
 > Applicant: Vellore Institute of Technology. Inventor: Swarnava Banerjee.
 > Filed, not granted.
 
-![The app with a document loaded](docs/screenshot.png)
 
 ## How it works
 
